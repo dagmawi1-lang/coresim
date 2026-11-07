@@ -1,0 +1,7 @@
+coresim
+coresim_tests
+build/
+*_trace.html
+!docs/*_trace.html
+.env
+node_modules/
