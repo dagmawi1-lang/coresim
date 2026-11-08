@@ -9,7 +9,7 @@
 - [x] Assembler with labels, constants, data directives, and line-numbered errors
 - [x] 17 tests (39 checks), clean under ASan/UBSan and `-Werror`
 
-## Next
+## Planned improvements
 - [ ] 5-stage pipeline mode (IF/ID/EX/MEM/WB) with hazard detection and stall counts
 - [ ] Simple direct-mapped cache with hit/miss statistics
 - [ ] Interrupts and a memory-mapped timer
