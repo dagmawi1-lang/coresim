@@ -2,6 +2,17 @@
 
 CoreSim simulates **CS16**, a small 16-bit load/store CPU I designed for this project. It includes a two-pass assembler, a cycle-counting simulator with flags and a stack, an interactive stepper, and an HTML trace viewer for watching registers change instruction by instruction.
 
+![Trace viewer stepping through bubble sort; changed registers are highlighted](docs/screenshot.jpg)
+
+## My role & contributions
+
+**Solo developer · AI-assisted**
+
+- Designed the CS16 instruction set: 29 instructions, register layout, and a 32-bit encoding
+- Wrote the sample assembly programs (Fibonacci, recursive factorial, bubble sort)
+- Verified flag behavior (carry vs. signed overflow) against test cases and ran the tests under sanitizers
+- Built the step-through trace viewer for explaining fetch–decode–execute
+
 **Language:** C++17, no external libraries
 **Shows:** computer architecture (fetch–decode–execute, ALU flags, addressing modes, calling convention, stack), low-level programming, testing.
 
